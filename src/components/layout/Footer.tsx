@@ -10,19 +10,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Column 1 - Brand */}
           <div className="space-y-6">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-12 h-12 bg-bayou-gold rounded shadow-lg flex items-center justify-center">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="w-8 h-8 text-white fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 2L2 12h3v8h14v-8h3L12 2zm0 4.5c1.1 0 2.15.3 3-1 .85.7 1.4 1.7 1.5 2.85h-1.5c-.1-.7-.45-1.3-.9-1.75s-1.1-.7-1.85-.75l.1-1.3c.1-.1.25-.1.65-.1zM9.5 12h5v6h-5v-6z" />
-                </svg>
-              </div>
-              <span className="font-display font-bold text-2xl tracking-tighter">
-                BAYOU <span className="text-bayou-gold">SPRAY FOAM</span>
-              </span>
+            <Link to="/">
+              <img
+                src="/images/logo-3.png"
+                alt="Bayou Spray Foam"
+                className="h-16 w-auto"
+              />
             </Link>
             <p className="text-white/70 leading-relaxed max-w-sm">
               Insulating Louisiana, One Building at a Time. We provide high-performance energy solutions for homes and businesses across Northwest Louisiana.
