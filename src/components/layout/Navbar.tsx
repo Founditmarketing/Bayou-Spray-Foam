@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link to="/" className="flex items-center group">
           <img
-            src="/images/logo-3.png"
+            src="/images/logo.png"
             alt="Bayou Spray Foam"
             className="h-14 w-auto transition-transform group-hover:scale-105"
           />

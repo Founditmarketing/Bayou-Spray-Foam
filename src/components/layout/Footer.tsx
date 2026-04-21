@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="space-y-6">
             <Link to="/">
               <img
-                src="/images/logo-3.png"
+                src="/images/logo.png"
                 alt="Bayou Spray Foam"
                 className="h-16 w-auto"
               />

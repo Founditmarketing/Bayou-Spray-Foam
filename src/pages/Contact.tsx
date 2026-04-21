@@ -227,7 +227,7 @@ export default function Contact() {
               <div className="space-y-10">
                 <div className="space-y-4">
                   <img
-                    src="/images/logo-3.png"
+                    src="/images/logo.png"
                     alt="Bayou Spray Foam"
                     className="h-20 w-auto"
                   />
