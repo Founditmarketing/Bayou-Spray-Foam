@@ -6,12 +6,12 @@
   --font-display: 'Montserrat', sans-serif;
   --font-secondary: 'Raleway', sans-serif;
 
-  --color-bayou-gold: #C8971F;
-  --color-bayou-deep-green: #1E5631;
-  --color-bayou-light-green: #2D8653;
+  --color-bayou-gold: #DBB874;
+  --color-bayou-deep-green: #3D4C34;
+  --color-bayou-light-green: #4E6143;
   --color-warm-cream: #FAF7F0;
   --color-dark-charcoal: #1A1A1A;
-  --color-muted-gold: #E8C97A;
+  --color-muted-gold: #E8D09A;
 }
 
 @layer base {
