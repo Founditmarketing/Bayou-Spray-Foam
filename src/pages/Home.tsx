@@ -565,7 +565,7 @@ export default function Home() {
           <div className="lg:w-1/2 bg-bayou-gold p-16 lg:p-24 flex items-center justify-center">
             <div className="relative group overflow-hidden rounded-xl shadow-2xl w-full max-w-md">
                <img
-                src="/images/4-dec.png"
+                src="/images/275122244_318653240297654_7172800932167715288_n.jpg"
                 alt="Spray Foam Close Up"
                 className="w-full aspect-square object-cover group-hover:scale-110 transition-transform duration-700"
               />

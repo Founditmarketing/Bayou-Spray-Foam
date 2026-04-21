@@ -91,7 +91,7 @@ export default function Commercial() {
                 className="grid grid-cols-2 gap-4"
             >
                 <img src="/images/283607484_366864912143153_1078984636564088581_n.jpg" className="rounded-lg shadow-xl aspect-square object-cover" alt="Commercial 1" />
-                <img src="/images/3.png" className="rounded-lg shadow-xl aspect-square object-cover mt-8" alt="Commercial 2" />
+                <img src="/images/247637951_234883092008003_166832560448315194_n.jpg" className="rounded-lg shadow-xl aspect-square object-cover mt-8" alt="Commercial 2" />
             </motion.div>
           </div>
         </div>

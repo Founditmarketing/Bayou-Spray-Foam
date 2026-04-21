@@ -132,7 +132,7 @@ export default function About() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
-              "/images/275088357_318653143630997_3012413985274798449_n.jpg",
+              "/images/247637951_234883092008003_166832560448315194_n.jpg",
               "/images/274989377_318653286964316_23606304055393642_n-1.jpg",
               "/images/275013596_318653153630996_6992363925091704088_n.jpg",
               "/images/274693112_324838713012440_6417728910726516074_n.jpg",
