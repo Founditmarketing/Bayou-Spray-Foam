@@ -3,56 +3,7 @@ import { Link } from "react-router-dom";
 import { Search, Clock, ChevronRight } from "lucide-react";
 import { useEffect } from "react";
 
-const posts = [
-  {
-    id: "1",
-    title: "Open Cell vs Closed Cell Spray Foam: Which Is Right for Your Louisiana Home?",
-    category: "INSULATION TIPS",
-    date: "April 15, 2026",
-    excerpt: "Understand the key differences between foam types and how the Louisiana humidity affects your choice.",
-    image: "/images/1-1.png",
-  },
-  {
-    id: "2",
-    title: "How Much Can Spray Foam Insulation Save You Per Month in Louisiana?",
-    category: "ENERGY SAVINGS",
-    date: "April 10, 2026",
-    excerpt: "We break down the real-world utility bill reductions seen by local homeowners after switching to foam.",
-    image: "/images/2.png",
-  },
-  {
-    id: "3",
-    title: "5 Signs Your Home's Insulation Is Failing",
-    category: "HOME MAINTENANCE",
-    date: "April 5, 2026",
-    excerpt: "If your AC is constantly running or your walls feel warm to the touch, it's time for an upgrade.",
-    image: "/images/3.png",
-  },
-  {
-    id: "4",
-    title: "Commercial vs. Residential Spray Foam: What's the Difference?",
-    category: "INDUSTRY NEWS",
-    date: "March 28, 2026",
-    excerpt: "Scale, density, and equipment — how commercial projects differ from residential installs.",
-    image: "/images/4-dec.png",
-  },
-  {
-    id: "5",
-    title: "Why Louisiana's Climate Makes Spray Foam a Must-Have",
-    category: "LOCAL INSIGHTS",
-    date: "March 20, 2026",
-    excerpt: "Moisture barriers and thermal breaks are the only way to beat the Southern humidity.",
-    image: "/images/5.png",
-  },
-  {
-    id: "6",
-    title: "The Complete Guide to Retrofit Insulation for Older Homes",
-    category: "RETROFIT GUIDE",
-    date: "March 15, 2026",
-    excerpt: "Don't tear down walls. Learn how injection foam can modernize your heritage home's efficiency.",
-    image: "/images/6-1.png",
-  },
-];
+import { postsList as posts } from "../data/blogPosts";
 
 export default function Blog() {
   useEffect(() => {
