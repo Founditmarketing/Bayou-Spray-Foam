@@ -119,7 +119,7 @@ export default function Residential() {
               className="relative rounded-2xl overflow-hidden shadow-2xl"
             >
               <img
-                src="/images/10.png"
+                src="/images/275013596_318653153630996_6992363925091704088_n.jpg"
                 alt="Residential Application"
                 className="w-full h-full object-cover"
               />

@@ -292,7 +292,7 @@ export default function Home() {
             >
               <div className="absolute -bottom-6 -right-6 w-full h-full border-4 border-bayou-gold rounded-lg -z-10" />
               <img
-                src="/images/Stock-Photos.png"
+                src="/images/274989377_318653286964316_23606304055393642_n-1.jpg"
                 alt="About Bayou Spray Foam"
                 className="rounded-lg shadow-2xl relative z-10 w-full aspect-[4/3] object-cover"
               />

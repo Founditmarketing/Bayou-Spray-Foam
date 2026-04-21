@@ -90,7 +90,7 @@ export default function Commercial() {
                 viewport={{ once: true }}
                 className="grid grid-cols-2 gap-4"
             >
-                <img src="/images/5.png" className="rounded-lg shadow-xl aspect-square object-cover" alt="Commercial 1" />
+                <img src="/images/283607484_366864912143153_1078984636564088581_n.jpg" className="rounded-lg shadow-xl aspect-square object-cover" alt="Commercial 1" />
                 <img src="/images/3.png" className="rounded-lg shadow-xl aspect-square object-cover mt-8" alt="Commercial 2" />
             </motion.div>
           </div>
