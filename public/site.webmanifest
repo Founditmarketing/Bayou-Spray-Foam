@@ -1,0 +1,17 @@
+{
+  "name": "Bayou Spray Foam",
+  "short_name": "Bayou Foam",
+  "description": "Professional spray foam insulation in Northwest Louisiana",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1B4332",
+  "theme_color": "#1B4332",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

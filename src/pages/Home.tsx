@@ -5,7 +5,7 @@ import { Shield, Zap, Calendar, Phone, ArrowRight, CheckCircle, ChevronDown } fr
 
 const heroSlides = [
   {
-    image: "/images/275088357_318653143630997_3012413985274798449_n.jpg",
+    image: "/images/283607484_366864912143153_1078984636564088581_n.jpg",
     title: "SEAL THE HEAT.",
     subtitle: "SLASH YOUR BILLS.",
   },
@@ -106,7 +106,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
-    }, 5000);
+    }, 8000);
     return () => clearInterval(timer);
   }, []);
 
