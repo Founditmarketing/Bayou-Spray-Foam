@@ -111,9 +111,9 @@ export default function BlogPost() {
   const relatedIds = Object.keys(posts).filter((k) => k !== id).slice(0, 3);
 
   return (
-    <div className="pt-36 min-h-screen font-sans">
+    <div className="min-h-screen font-sans">
       {/* Featured Image Hero */}
-      <section className="relative h-[45vh] w-full">
+      <section className="relative h-[60vh] w-full">
         <img
           src={post.image}
           alt={post.title}

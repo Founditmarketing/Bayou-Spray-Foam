@@ -54,9 +54,9 @@ export default function Residential() {
   ];
 
   return (
-    <div className="pt-36 min-h-screen font-sans">
+    <div className="min-h-screen font-sans">
       {/* 8A — Page Hero */}
-      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[75vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="/images/9.png"
@@ -65,7 +65,7 @@ export default function Residential() {
           />
           <div className="absolute inset-0 bg-bayou-deep-green/60" />
         </div>
-        <div className="container mx-auto px-4 relative z-10 text-center">
+        <div className="container mx-auto px-4 relative z-10 text-center pt-36">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}

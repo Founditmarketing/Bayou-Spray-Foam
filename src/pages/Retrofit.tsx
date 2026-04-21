@@ -49,9 +49,9 @@ export default function Retrofit() {
   ];
 
   return (
-    <div className="pt-36 min-h-screen font-sans">
+    <div className="min-h-screen font-sans">
       {/* Page Hero */}
-      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden text-center">
+      <section className="relative h-[75vh] flex items-center justify-center overflow-hidden text-center">
         <div className="absolute inset-0 z-0">
           <img
             src="/images/1-1.png"
@@ -60,7 +60,7 @@ export default function Retrofit() {
           />
           <div className="absolute inset-0 bg-black/60" />
         </div>
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-4 relative z-10 pt-36">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}

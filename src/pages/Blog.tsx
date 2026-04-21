@@ -76,8 +76,8 @@ export default function Blog() {
   }, []);
 
   return (
-    <div className="pt-36 min-h-screen font-sans">
-      <section className="bg-bayou-deep-green py-16 text-center">
+    <div className="min-h-screen font-sans">
+      <section className="bg-bayou-deep-green pt-36 pb-16 text-center">
         <div className="container mx-auto px-4">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
