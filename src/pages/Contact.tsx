@@ -35,7 +35,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="pt-24 min-h-screen font-sans">
+    <div className="pt-36 min-h-screen font-sans">
       {/* 13 — Page Hero */}
       <section className="bg-bayou-deep-green py-24 text-center relative overflow-hidden">
         <div className="absolute top-0 right-0 w-64 h-64 bg-bayou-gold/10 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />

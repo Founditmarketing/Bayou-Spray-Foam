@@ -49,7 +49,7 @@ export default function Retrofit() {
   ];
 
   return (
-    <div className="pt-24 min-h-screen font-sans">
+    <div className="pt-36 min-h-screen font-sans">
       {/* Page Hero */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden text-center">
         <div className="absolute inset-0 z-0">

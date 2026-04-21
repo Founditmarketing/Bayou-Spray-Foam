@@ -54,7 +54,7 @@ export default function Residential() {
   ];
 
   return (
-    <div className="pt-24 min-h-screen font-sans">
+    <div className="pt-36 min-h-screen font-sans">
       {/* 8A — Page Hero */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
