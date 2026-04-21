@@ -41,19 +41,12 @@ export default function Navbar() {
       } border-b border-bayou-gold/30`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-bayou-gold rounded shadow-lg flex items-center justify-center transition-transform group-hover:scale-110">
-            <svg
-              viewBox="0 0 24 24"
-              className="w-6 h-6 text-white fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M12 2L2 12h3v8h14v-8h3L12 2zm0 4.5c1.1 0 2.15.3 3 1 .85.7 1.4 1.7 1.5 2.85h-1.5c-.1-.7-.45-1.3-.9-1.75s-1.1-.7-1.85-.75l.1-1.3c.1-.1.25-.1.65-.1zM9.5 12h5v6h-5v-6z" />
-            </svg>
-          </div>
-          <span className="font-display font-bold text-white text-xl tracking-tight hidden sm:block">
-            BAYOU <span className="text-bayou-gold">SPRAY FOAM</span>
-          </span>
+        <Link to="/" className="flex items-center group">
+          <img
+            src="/images/logo-3.png"
+            alt="Bayou Spray Foam"
+            className="h-14 w-auto transition-transform group-hover:scale-105"
+          />
         </Link>
 
         {/* Desktop Nav */}
