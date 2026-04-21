@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&family=Raleway:wght@600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Open Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Montserrat', sans-serif;
+  --font-secondary: 'Raleway', sans-serif;
+
+  --color-bayou-gold: #C8971F;
+  --color-bayou-deep-green: #1E5631;
+  --color-bayou-light-green: #2D8653;
+  --color-warm-cream: #FAF7F0;
+  --color-dark-charcoal: #1A1A1A;
+  --color-muted-gold: #E8C97A;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-dark-charcoal font-sans;
+  }
+}
+
+.shadow-card {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
