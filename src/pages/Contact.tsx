@@ -229,7 +229,7 @@ export default function Contact() {
                   <img
                     src="/images/logo.png"
                     alt="Bayou Spray Foam"
-                    className="h-20 w-auto"
+                    className="h-40 w-auto"
                   />
                   <p className="text-dark-charcoal/60 text-lg font-medium leading-relaxed">
                     Locally owned and operated in Choudrant, Louisiana. Serving Northwest Louisiana with pride since 2008.

@@ -14,7 +14,7 @@ export default function Footer() {
               <img
                 src="/images/logo.png"
                 alt="Bayou Spray Foam"
-                className="h-16 w-auto"
+                className="h-32 w-auto"
               />
             </Link>
             <p className="text-white/70 leading-relaxed max-w-sm">

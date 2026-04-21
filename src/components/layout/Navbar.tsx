@@ -45,7 +45,7 @@ export default function Navbar() {
           <img
             src="/images/logo.png"
             alt="Bayou Spray Foam"
-            className="h-14 w-auto transition-transform group-hover:scale-105"
+            className="h-28 w-auto transition-transform group-hover:scale-105"
           />
         </Link>
 
