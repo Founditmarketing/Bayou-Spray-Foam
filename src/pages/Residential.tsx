@@ -59,7 +59,7 @@ export default function Residential() {
       <section className="relative h-[75vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/9.png"
+            src="/images/5.png"
             alt="Residential Hero"
             className="w-full h-full object-cover"
           />

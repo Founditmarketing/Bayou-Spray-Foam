@@ -39,7 +39,7 @@ export default function Commercial() {
       <section className="relative h-[75vh] flex items-center justify-center overflow-hidden text-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/4.png"
+            src="/images/2.png"
             alt="Commercial Hero"
             className="w-full h-full object-cover"
           />
